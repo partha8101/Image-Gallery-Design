@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 162, 255);
+}
+.gallery{
+    margin: 30px 70px;
+}
+
+.gallery img{
+    width: 180px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.gallery img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
